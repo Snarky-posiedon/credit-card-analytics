@@ -340,7 +340,7 @@ def main():
         
         with col2:
             # Amount distribution
-            fig = px.histogram(df, x='amount', bins=50, title='Transaction Amount Distribution')
+            fig = px.histogram(df, x='amount', nbins=50, title='Transaction Amount Distribution')
             fig.update_layout(height=400)
             st.plotly_chart(fig, use_container_width=True)
     
