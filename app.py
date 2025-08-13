@@ -35,7 +35,7 @@ st.markdown("""
     border-left: 5px solid #1f77b4;
 }
 .insight-box {
-    background-color: #e8f4fd;
+    background-color: #03233b;
     padding: 1rem;
     border-radius: 10px;
     border-left: 4px solid #0066cc;
@@ -75,8 +75,7 @@ def load_and_process_data():
         df['month_name'] = df['date'].dt.month_name()
         
         # City tier classification
-        tier1_cities = ['Mumbai', 'Delhi', 'Bangalore', 'Chennai', 'Kolkata', 'Hyderabad', 
-                       'Pune', 'Ahmedabad', 'Surat', 'Jaipur', 'Lucknow', 'Kanpur', 'Nagpur']
+        tier1_cities = ['Greater Mumbai, India', 'Delhi, India', 'Bengaluru, India', 'Ahmedabad, India']
         df['city_tier'] = df['city'].apply(
             lambda x: 'Tier-1' if x in tier1_cities else 'Tier-2/3'
         )
