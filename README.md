@@ -54,7 +54,7 @@ This will create a new `credit_card_data.csv` file with realistic transaction pa
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/credit-card-analytics-dashboard.git
+git clone https://github.com/Snarky-posiedon/credit-card-analytics-dashboard.git
 cd credit-card-analytics-dashboard
 ```
 
@@ -155,3 +155,4 @@ Project Link: [https://github.com/Snarky-posiedon/credit-card-analytics-dashboar
 ---
 
 ⭐ Don't forget to give the project a star if you found it useful!
+
