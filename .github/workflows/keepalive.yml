@@ -9,4 +9,4 @@ jobs:
   ping:
     runs-on: ubuntu-latest
     steps:
-        - run: curl https://credit-card-analytics.streamlit.app/
+        - run: curl https://credit-card-analytics.streamlit.app/?keepalive=$(date +%s)
